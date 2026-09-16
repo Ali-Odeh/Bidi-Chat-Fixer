@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bidi Chat Fixer</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="hero">
+        <div class="logo" aria-hidden="true">عA</div>
+        <div>
+          <h1>Bidi Chat Fixer</h1>
+          <p>Keeps mixed Arabic and English readable.</p>
+        </div>
+      </header>
+
+      <section class="status" id="statusCard">
+        <div class="status-dot"></div>
+        <div>
+          <p class="status-label" id="statusLabel">Checking this tab…</p>
+          <p class="status-host" id="statusHost">—</p>
+        </div>
+      </section>
+
+      <section class="card">
+        <label class="row">
+          <div>
+            <strong>Enable fixer</strong>
+            <span>On or off for this tab</span>
+          </div>
+          <input id="enabled" type="checkbox" />
+        </label>
+        <label class="row">
+          <div>
+            <strong>All chat tabs</strong>
+            <span>Use the same setting everywhere</span>
+          </div>
+          <input id="allTabs" type="checkbox" />
+        </label>
+      </section>
+
+      <p class="hint">
+        Fixes mixed Ar &amp; En in AI chats like ChatGPT, Claude, DeepSeek, Grok, and similar chats.
+      </p>
+    </div>
+    <script src="hosts.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

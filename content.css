@@ -1,0 +1,7 @@
+.bcf-iso {
+  unicode-bidi: isolate;
+}
+
+[data-bcf-dir] {
+  unicode-bidi: isolate;
+}
