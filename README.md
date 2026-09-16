@@ -42,7 +42,7 @@ git clone https://github.com/Ali-Odeh/Bidi-Chat-Fixer.git
 1. Open Chrome and go to `chrome://extensions`
 2. Turn on **Developer mode** (top right)
 3. Click **Load unpacked**
-4. Select the project folder (the one that contains `manifest.json`)
+4. Select the **whole project folder**, not a single file. After unzipping, that folder is usually named `Bidi-Chat-Fixer-main`.
 5. Pin the extension from the puzzle-piece menu if you want quick access
 
 ### 3. Use it
